@@ -2,7 +2,7 @@
 
 .App {
   /* width: 800px; */
-  width: 100vw;
+  max-width: 100vw;
   max-height: 100%;
   display: flex;
   align-items: center;
@@ -19,8 +19,9 @@ body {
 
 .start--screen {
   display: flex;
+  height: 100px;
+  width: 100px;
   flex-direction: column;
-  /* width: 500px; */
   height: 500px;
   justify-content: center;
   align-items: center;
@@ -89,6 +90,10 @@ body {
   z-index: -10;
 }
 
+.score {
+  margin: 10px auto;
+}
+
 @media only screen and (max-width: 768px){
   .option--group {
     flex-direction: column;
@@ -102,7 +107,7 @@ body {
   }
 
   .btn {
-    min-width: 100px;
-    max-width: 300px;
+    min-width: 150px;
+    max-width: 150px;
   }
 }
