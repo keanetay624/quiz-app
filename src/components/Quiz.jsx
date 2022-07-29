@@ -81,7 +81,7 @@ export default function Quiz(props) {
     return (
         <div className="questions--container">
             {elements}
-            {quizEnded && <span>You scored {score} / {formData.length} correct answers.</span>}
+            {quizEnded && <div className="score">You scored {score} / {formData.length} correct answers.</div>}
             <button className="btn btn--check-answers" onClick={showAnswers}>{!quizEnded ? "Check answers" : "Play Again"}</button>
         </div>
     )
