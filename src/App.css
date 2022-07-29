@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&family=Noto+Sans:wght@200;400;800&display=swap");
+
+.App {
+  width: 800px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F7FB;
+}
+
+.start--screen {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.btn {
+  border-radius: 10px;
+  border: solid #293264 1px;
+  color: #293264;
+  padding: 10px 40px;
+  margin: 0 5px;
+  background: white;
+  font-size: 10pt;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.option--group {
+  margin-top: -5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+.questions--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question--title {
+  color: #293264;
+  font-size: 12pt;
+}
+
+.btn--check-answers, .btn--start {
+  align-self: center;
+  justify-self: center;
+  width: 200px;
+  background-color:#4D5B9E;
+  color: white;
+}
+
+.blob {
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.blob-1 {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
